@@ -156,7 +156,7 @@ class MainWindow(QMainWindow):
         self.update_labels(max_sales_product, max_revenue_product, max_units_sold_product, total_revenue)
 
     def display_data(self, data):
-        """Отображение данных в ui"""
+        """Отображение данных в таблице"""
         self.text_edit.clear()
         self.table_widget.setRowCount(0)
         for row_number, row_data in enumerate(data):
